@@ -5,7 +5,7 @@
 
 ## dicom_gui2.py
 - GUI로 dicom file 보기
-- 마우스 드래그로 window 값 변경 가능 (가로 : center, 세로 : width)
+- 마우스 드래그로 window 값 변경 가능 (가로 : width, 세로 : center)
 
 ## dicom_hist~
 - dicom file 불러와서 읽음
