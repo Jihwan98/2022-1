@@ -10,3 +10,6 @@
 ## dicom_hist~
 - dicom file 불러와서 읽음
 - histogram을 통해 분석
+
+## dicom_roi~
+- 마우스로 roi 영역 지정해서 windowing 값 세팅
