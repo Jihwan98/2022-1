@@ -1,4 +1,6 @@
 def compact(src):
+    if src == '':
+        return ''
     tmp = src[0]
     cnt = 1
     result = ''
@@ -12,5 +14,18 @@ def compact(src):
     result += tmp + str(cnt)
     return result
 
-a = 'acddbcceeffffaaegg'
-print(compact(a))
+src = 'aaaabbb'
+print("src = '{}'".format(src))
+print("output = '{}'".format(compact(src)))
+
+src = 'aaaabccccaaaaacccfg'
+print("src = '{}'".format(src))
+print("output = '{}'".format(compact(src)))
+
+src = ''
+print("src = '{}'".format(src))
+print("output = '{}'".format(compact(src)))
+
+src = 'a'
+print("src = '{}'".format(src))
+print("output = '{}'".format(compact(src)))
